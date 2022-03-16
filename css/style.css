@@ -1,0 +1,70 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: yellow;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+}
+
+/* implementing this section, takes away the yellow border from body */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  scroll-snap-align: start;
+}
+
+/* first child of the section */
+.header-1 {
+  /* to align items horizontally center: on grid */
+  display: flex;
+  align-items: center;
+  /* to align items vertically on page */
+  justify-content: center;
+  /* to maximize the area of the background-color */
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(28, 28, 28);
+  color: green;
+}
+
+/* second child of the section */
+.header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(38, 38, 38);
+  color: red;
+}
+
+/* third child of the section */
+.header-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(48, 48, 48);
+  color: yellow;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 15rem;
+}
