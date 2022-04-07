@@ -21,23 +21,28 @@ section {
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background-color: rgb(28, 28, 28);
+  text-align: left;
 
   scroll-snap-align: start;
 }
 
-/* first child of the section */
-.header-1 {
-  /* to align items horizontally center: on grid */
-  display: flex;
-  align-items: center;
-  /* to align items vertically on page */
-  justify-content: center;
-  /* to maximize the area of the background-color */
-  width: 100vw;
-  height: 100vh;
+.gif {
+  /* align-items: center; */
+}
 
+/* first child of the section */
+/* text */
+.header-1 {
+  /* transform: rotate(90deg);
+  text-align: left; */
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.page-one-color {
   background-color: rgb(28, 28, 28);
-  color: green;
 }
 
 /* second child of the section */
@@ -66,5 +71,6 @@ section {
 
 h1 {
   font-family: Arial;
-  font-size: 15rem;
+  font-size: 4rem;
+  /* font-size: 15rem; */
 }
