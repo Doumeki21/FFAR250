@@ -28,21 +28,19 @@ section {
 }
 
 .gif {
-  /* align-items: center; */
+  height: 80%;
 }
 
-/* first child of the section */
 /* text */
 .header-1 {
-  /* transform: rotate(90deg);
-  text-align: left; */
+  /* transform: rotate(-90deg); */
+  text-align: left;
   text-align: center;
-  font-size: 2rem;
   color: white;
 }
 
 .page-one-color {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(255, 210, 205);
 }
 
 /* second child of the section */
@@ -71,6 +69,6 @@ section {
 
 h1 {
   font-family: Arial;
-  font-size: 4rem;
+  font-size: 5rem;
   /* font-size: 15rem; */
 }
