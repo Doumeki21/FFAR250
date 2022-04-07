@@ -8,8 +8,7 @@ body {
 .container {
   width: 100%;
   height: 100%;
-  background-color: black;
-
+  /* background-color: black; */
   scroll-snap-type: y mandatory;
   overflow-y: auto;
 }
@@ -27,6 +26,11 @@ section {
   scroll-snap-align: start;
 }
 
+.title-page-color {
+  background-color: rgb(212, 212, 212);
+}
+
+/* Keeps a constant img size on all screen sizes. */
 .gif {
   height: 80%;
 }
@@ -34,37 +38,36 @@ section {
 /* text */
 .header-1 {
   /* transform: rotate(-90deg); */
+  text-align: right;
+  text-align: center;
+  color: rgb(214, 173, 214);
+}
+
+.page-one-color {
+  background-color: white;
+}
+
+/* text */
+.header-2 {
+  /* transform: rotate(-90deg); */
   text-align: left;
   text-align: center;
   color: white;
 }
 
-.page-one-color {
+.page-two-color {
   background-color: rgb(255, 210, 205);
-}
-
-/* second child of the section */
-.header-2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-
-  background-color: rgb(38, 38, 38);
-  color: red;
 }
 
 /* third child of the section */
 .header-3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  text-align: right;
+  text-align: center;
+  color: rgb(183, 130, 255);
+}
 
-  background-color: rgb(48, 48, 48);
-  color: yellow;
+.page-three-color {
+  background-color: rgb(205, 250, 255);
 }
 
 h1 {
