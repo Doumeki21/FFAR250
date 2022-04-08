@@ -20,7 +20,7 @@ body {
   position: absolute;
   padding: 1%;
   font-size: 2.1rem;
-  color: rgb(155, 155, 155)
+  color: rgb(100, 100, 100)
 }
 
 /* implementing this section, takes away the yellow border from body */
@@ -37,7 +37,8 @@ section {
 }
 
 .title-page-color {
-  background-color: rgb(155, 155, 155);
+  position: relative;
+  background-color: rgb(200, 200, 200);
 }
 
 .fancy-link {
@@ -60,6 +61,7 @@ section {
 }
 
 .fancy-link:hover::after {
+  color: rgb(100, 100, 100);
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -104,25 +106,38 @@ section {
   background-color: rgb(205, 250, 255);
 }
 
+/* gif is too close to the text */
 .page-three-color .gif {
   margin-right: 2%;
+}
+
+.header-4 {
+  text-align: right;
+  text-align: center;
+  color: white;
+}
+
+.page-four-color {
+  background-color: rgb(245, 212, 255);
 }
 
 .credits {
   padding: 2%;
   border-bottom-style: solid;
   border-bottom-width: 15px;
+  border-color: rgb(100, 100, 100);
 }
 
 /* this element is absolute positioned relative to its parent */
 p {
+  color: rgb(50, 50, 50);
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   bottom: 2%;
   padding-bottom: 1%;
 }
 
 .credit-page-color {
   position: relative;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(200, 200, 200);
 }

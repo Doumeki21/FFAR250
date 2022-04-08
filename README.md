@@ -1,7 +1,7 @@
 # FFAR250
 Final project for FFAR250 (winter 2022).
 
-View on a horizontal screen for best experience.
+View on a horizontal screen for the best experience.
 
 **REFERENCE**
 - https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style
