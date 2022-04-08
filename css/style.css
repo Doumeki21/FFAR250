@@ -3,6 +3,9 @@ body {
   height: 100vh;
   margin: 0;
   background-color: yellow;
+  font-family: 'Poppins', sans-serif;;
+  font-size: 4rem;
+  color: white;
 }
 
 .container {
@@ -11,6 +14,13 @@ body {
   /* background-color: black; */
   scroll-snap-type: y mandatory;
   overflow-y: auto;
+}
+
+.logo {
+  position: absolute;
+  padding: 1%;
+  font-size: 2.1rem;
+  color: rgb(155, 155, 155)
 }
 
 /* implementing this section, takes away the yellow border from body */
@@ -27,7 +37,31 @@ section {
 }
 
 .title-page-color {
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(155, 155, 155);
+}
+
+.fancy-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.fancy-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -20%;
+  width: 100%;
+  height: 10px;
+  background: currentColor;
+
+  transform: scaleX(0.02);
+  transform-origin: right;
+  transition: transform 250ms ease;
+}
+
+.fancy-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* Keeps a constant img size on all screen sizes. */
@@ -70,8 +104,25 @@ section {
   background-color: rgb(205, 250, 255);
 }
 
-h1 {
-  font-family: Arial;
-  font-size: 5rem;
-  /* font-size: 15rem; */
+.page-three-color .gif {
+  margin-right: 2%;
+}
+
+.credits {
+  padding: 2%;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+}
+
+/* this element is absolute positioned relative to its parent */
+p {
+  position: absolute;
+  font-size: 1.2rem;
+  bottom: 2%;
+  padding-bottom: 1%;
+}
+
+.credit-page-color {
+  position: relative;
+  background-color: rgb(180, 180, 180);
 }
